@@ -17,7 +17,7 @@ ASMFILES :=
 LIBS := sel4
 
 # Header files defined here that need to be staged
-HDRFILES := $(SOURCE_DIR)/include/*.h
+HDRFILES := $(wildcard $(SOURCE_DIR)/include/*)
 
 # extra flags
 CFLAGS += -Werror -ggdb -g3

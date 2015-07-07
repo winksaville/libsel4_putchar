@@ -1,3 +1,3 @@
-# libsel4_putchar
+# libsel4putchar
 
-PutChar library for seL4.
+PutChar library for seL4 used by libsel4printf.
