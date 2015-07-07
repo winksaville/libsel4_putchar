@@ -10,4 +10,4 @@ menuconfig LIB_SEL4_PUTCHAR
     bool "Build sel4 putchar library"
     default n
     help
-        "Build the library which defines libsel4_putchar(char)"
+        "Build the library which defines seL4_PutChar(char)"

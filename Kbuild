@@ -6,5 +6,5 @@
 # See "LICENSE_BSD2.txt" for details.
 #
 
-libs-$(CONFIG_LIB_SEL4_PUTCHAR) += libsel4_putchar
-libsel4_putchar: common libsel4
+libs-$(CONFIG_LIB_SEL4_PUTCHAR) += libsel4putchar
+libsel4putchar: common libsel4

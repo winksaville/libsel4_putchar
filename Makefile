@@ -6,7 +6,7 @@
 # See "LICENSE_BSD2.txt" for details.
 
 # Targets
-TARGETS := libsel4_putchar.a
+TARGETS := libsel4putchar.a
 
 # Source files required to build the target
 CFILES   := src/sel4_putchar.c
