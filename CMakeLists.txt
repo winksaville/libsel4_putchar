@@ -10,4 +10,4 @@ target_include_directories(sel4putchar SYSTEM
     PUBLIC "include"
 )
 
-add_dependencies(sel4putchar libsel4)
+target_link_libraries(sel4putchar libsel4)
