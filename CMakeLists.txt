@@ -1,13 +1,13 @@
-add_library(sel4putchar STATIC
+add_library(libsel4putchar STATIC
     src/sel4_putchar.c
 )
 
-target_compile_definitions(sel4putchar
+target_compile_definitions(libsel4putchar
     PUBLIC HAVE_SEL4_PUTCHAR
 )
 
-target_include_directories(sel4putchar SYSTEM
+target_include_directories(libsel4putchar SYSTEM
     PUBLIC "include"
 )
 
-target_link_libraries(sel4putchar libsel4)
+target_link_libraries(libsel4putchar libsel4)
